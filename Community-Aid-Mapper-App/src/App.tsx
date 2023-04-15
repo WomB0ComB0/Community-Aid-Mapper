@@ -3,6 +3,9 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import NotFound from './Flow/Misc/404'
 import {FallBack as Offline} from './Flow/Misc/fallback'
 import Auth from './Components/Auth'
+import Home from './Components/index'
+
+
 
 const App = () => {
   const [isOnline, setIsOnline] = useState(navigator.onLine);
@@ -26,7 +29,8 @@ const App = () => {
         <Offline/>: 
         <Router>
             <Routes>
-              <Route path="*" element={<NotFound></NotFound>}/>
+            <Route path="*" element={<NotFound></NotFound>}/>
+            <Route path="/" element={Home}/>
             </Routes>
           </Router>
       }
