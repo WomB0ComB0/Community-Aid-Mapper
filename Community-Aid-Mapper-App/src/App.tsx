@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import NotFound from './Components/404'
-import {FallBack as Offline} from './Components/fallback'
+import NotFound from './Flow/Misc/404'
+import {FallBack as Offline} from './Flow/Misc/fallback'
 
 const App = () => {
   const [isOnline, setIsOnline] = useState(navigator.onLine);
