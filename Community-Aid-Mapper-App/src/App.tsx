@@ -4,6 +4,8 @@ import NotFound from './Flow/Misc/404'
 import {FallBack as Offline} from './Flow/Misc/fallback'
 import Auth from './Components/Auth'
 import Home from './Components/index'
+import Sidebar from './sidebar/SideBar';
+import MainPage from './MainPage';
 
 
 
