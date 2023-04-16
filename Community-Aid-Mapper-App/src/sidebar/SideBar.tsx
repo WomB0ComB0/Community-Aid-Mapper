@@ -6,7 +6,7 @@ const Sidebar = () => {
   const [events, setEvents] = useState([]);
 
   const handleSearch = () => {
-    // calls api
+    // calls the api
   };
 
   return (

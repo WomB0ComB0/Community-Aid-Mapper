@@ -6,7 +6,7 @@ import Auth from './Components/Auth'
 import Home from './Components/index'
 import Sidebar from './sidebar/SideBar';
 import MainPage from './MainPage';
-
+//imports main page
 
 
 const App = () => {
