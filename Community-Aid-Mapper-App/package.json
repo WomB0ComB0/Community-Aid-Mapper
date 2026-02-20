@@ -16,7 +16,7 @@
     "@types/googlemaps": "^3.43.3",
     "framer-motion": "^10.12.2",
     "google-map-react": "^2.2.0",
-    "npm-check-updates": "^16.10.8",
+    "npm-check-updates": "^19.4.1",
     "postcss-cli": "^10.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
